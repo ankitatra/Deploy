@@ -1,0 +1,68 @@
+.ourblog {
+  
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+#liveseesion hr{
+    width:20%;
+    border: 1px solid #EE4E5E;
+}
+#part{
+  
+    border-radius: 20px;
+    height:400px;
+    margin-right: 200px;
+}
+#part img{
+    width: 100%;
+  
+    border-radius: 20px;
+}
+.Ourblog-crousel{
+    width:80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+#part{
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FBC8CB;
+}
+
+
+
+#part p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+#part p:nth-child(2) {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#part button {
+    border:1px solid #EE4E5E;
+    color: #EE4E5E;
+    padding: 10px 20px;
+   
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+#part button:hover{
+    background-color: #EE4E5E;
+}
+/* Add any additional styles for the carousel navigation or other elements as needed */

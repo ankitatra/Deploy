@@ -1,0 +1,155 @@
+.adds-container {
+    width: 100%;
+    height: 450px;
+
+    background-image: url('https://cdn.anytimeastro.com/dashaspeaks/web/content/anytimeastro/images/banner_bg.png');
+   position: relative;
+   padding-top: 40px;
+ }
+ 
+.adds-subcontainer{
+width:75%;
+height:90%;
+margin: auto;
+/* margin-top: 120px; */
+background-color:white;
+
+border-radius: 40px;
+
+
+}
+
+.adds{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+   
+}
+.add-video{
+   width: 50%;
+   height:100%;
+  
+  
+}
+.add-video  video{
+    height: 90%;
+    width:94%;
+    object-fit:fill;
+    padding-top: 15px;
+    border-radius: 20px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.add-info{
+    text-align: center; /* Center text within the add-info div */
+    /* padding: 20px; */
+width:50%;
+height: 100%;
+padding-top: 30px;
+
+
+}
+.add-info h1{
+    font-size:60px;
+}
+.add-info h3{
+    font-size: 40px;
+    color: #b12b38;
+}
+.add-info button{
+    width: 250px;
+    height: 80px;
+    background-color: #FFD600;
+    border-radius: 50px;
+    font-size: 20px;
+   
+    border: none;
+}
+.talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom:-60px;
+    left:350px
+}
+.talk button{
+    width:350px;
+    height:100px;
+    background-color: white;
+    border:1px solid #b12b38;
+    border-radius: 20px;
+    font-size: 30px;
+  align-items: center;
+  margin-left: 20px;
+  
+
+}
+
+.talk button span{
+    color: #b12b38;
+}
+
+@media only screen and (max-width: 1024px) {
+    .adds-subcontainer {
+        width: 80%;
+        height: 500px;
+    }
+
+    .talk {
+        left: 20px;
+    }
+    .talk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom:-90px;
+        left:130px
+    }
+     
+.adds-subcontainer{
+    width:75%;
+    height:100%;
+    margin: auto;
+    /* margin-top: 120px; */
+    background-color:white;
+    
+    border-radius: 40px;
+}    
+}
+
+@media only screen and (max-width: 768px) {
+    .adds-subcontainer {
+        width: 90%;
+    }
+    .adds {
+        display: block;
+    }
+    .add-video{
+        width:90%;
+        
+    }
+    .add-info{
+        width:90%;
+        
+    }
+    .talk {
+       
+       
+        display: none;
+    }
+
+    .adds-container {
+        width: 100%;
+        height: 450px;
+    
+        background-image: none;
+       position: relative;
+       padding-top: 40px;
+     }
+}
+

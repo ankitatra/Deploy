@@ -1,0 +1,133 @@
+.footer-container {
+    width: 100%;
+    background:#982A35;
+}
+
+.footer-row {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-section {
+    padding: 60px 0;
+    width: 100%;
+    background:#982A35;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footer-title {
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    /* border-bottom: 1px solid #4e4e4e; */
+}
+
+
+
+.footer-item {
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+.footer-links a {
+    padding: 10px 0;
+  
+    color: #fff;
+    display: block;
+    transition: color 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ff304d;
+}
+
+.footer-social-links li {
+    display: inline-block;
+}
+
+.footer-social-links a {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+   
+
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+    transition: background 0.3s ease-in-out;
+  
+}
+
+.footer-social-links a:hover {
+    background: #ff304d;
+}
+
+.footer-bottom {
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    color: #fff;
+    background: #5F0009
+}
+.footer-item{
+    width:19%
+}
+
+.downloads-app{
+    border:1px solid white;
+    border-radius: 10px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width:100%
+}
+.downloads-app svg{
+font-size: 60px;
+
+}
+.downloads-app{
+    margin-bottom: 10px;
+}
+
+.footer-social-links svg{
+font-size: 50px;
+}
+
+.downloadapp-msg{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        display: grid;
+        grid-template-columns: 50% 50%; 
+    }
+    .footer-item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr); }
+    .footer-item {
+        width: 100%;
+    }
+}
